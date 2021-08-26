@@ -1,0 +1,71 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "actionMap",
+            "id": "348725da-fb34-4ea6-b761-331bcf0e8bab",
+            "actions": [
+                {
+                    "name": "fillipDown",
+                    "type": "Button",
+                    "id": "be21bf0f-a695-441d-95a6-455913f9314e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "movement",
+                    "type": "Value",
+                    "id": "889f4b7e-cf09-40c4-9bf1-fc9e245fb6a2",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "fillipUp",
+                    "type": "Button",
+                    "id": "6257a384-4c43-4e20-87c1-2e43a8f221c7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2bc17493-e63c-4492-bc61-6ee3eb1db67a",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fillipDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5357e8e2-bd77-466a-80b2-98dfd16dde08",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a4b524e-05ee-4dd8-96a2-cc9bc25508b5",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fillipUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
